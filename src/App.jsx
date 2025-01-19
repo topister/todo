@@ -1,7 +1,11 @@
+import Header from "./components/Header";
+import "./app.css";
+import Todo from "./components/Todo";
 function App() {
   return (
     <>
-      <div>Hello</div>
+      <Header />
+      <Todo />
     </>
   );
 }
